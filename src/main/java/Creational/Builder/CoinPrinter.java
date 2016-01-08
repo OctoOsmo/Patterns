@@ -11,7 +11,7 @@ public class CoinPrinter {
     }
 
     public Coin getCoin(){
-//        this.constructCoin();
+        this.constructCoin();
         return coinBuilder.getCoin();
     }
 
